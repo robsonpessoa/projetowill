@@ -8,7 +8,6 @@ public class Media {
     private final String name;
     private final Util.ageRatingsEnum ageRating;
     private final ArrayList<Util.genresEnum> genres;
-
     private int length, year, nViews, nUserRatings;
     private float userRating;
     private Logger logger;
