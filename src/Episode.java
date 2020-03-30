@@ -7,4 +7,8 @@ public class Episode extends Video{
         super(name, director, ageRating, genres, null);
         this.number = number;
     }
+
+    public int getNumber() {
+        return number;
+    }
 }
